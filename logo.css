@@ -1,11 +1,13 @@
 [class^="homeIcon"] {
-    content: url('https://raw.githubusercontent.com/nirobsheikhnxt/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') !important;
+    content: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') !important;
     width: 32px !important;
     height: 32px !important;
 }
+
 .childWrapper_f90abc {
     background-color: transparent !important;
 }
+
 .wrapper_c5f96e:hover .childWrapper_f90abc {
     background-color: rgba(122, 28, 46, 0.6) !important;
 }
