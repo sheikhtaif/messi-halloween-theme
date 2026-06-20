@@ -1,15 +1,37 @@
-[class^="childWrapper_"] svg {
-    display: none !important;
+/**
+ * @name Messi Theme Fixed
+ * @author Custom Developer
+ * @version 1.0.0
+ * @description Forceful background inject without native transparency reliance.
+*/
+
+:root {
+    --theme-background-image: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Wallpaper.jpg');
 }
 
+/* Force Image inside the app layers directly */
+.appMount_eed9a3, .app_eed9a3, .bg_d4b6c5, .container_e40c16, .wrapper_ffee72 {
+    background: var(--theme-background-image) center/cover no-repeat fixed !important;
+}
+
+.layer_cd0de5, .container_a4d4d9, .chat_a7d72e, .sidebar_a4d4d9, .wrapper_a7e7a1, .panels_a4d4d9, .container_ee69e0, .chatContent_a7d72e, .members_cbd271, .container_cbd271, .privateChannels_f0963d, .scroller_c47fa9, .scroller_bf550a, .pageWrapper_a3a4ce, .scroller_eedf95, .scroller_e2e187, .peopleColumn_c2739c, .content_a4d4d9, .base_a4d4d9 {
+    background: rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: none !important;
+}
+
+.scrollableContainer_d0696b, .channelTextArea_a7d72e {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+:root {
+    --text-normal: #dcddde !important;
+    --text-muted: #72767d !important;
+    --header-primary: #ffffff !important;
+    --channels-default: #8e9297 !important;
+}
+
+[class^="childWrapper_"] svg { display: none !important; }
 [class^="childWrapper_"] {
     background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
-    width: 48px !important;
-    height: 48px !important;
-    border-radius: 50% !important;
-}
-
-[class^="wrapper_"]:hover [class^="childWrapper_"] {
-    background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
-    border-radius: 15px !important;
+    width: 48px !important; height: 48px !important; border-radius: 50% !important;
 }
