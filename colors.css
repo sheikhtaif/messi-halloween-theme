@@ -1,0 +1,10 @@
+:root {
+    --brand-experiment: #7a1c2e; 
+    --brand-experiment-560: #541320;
+    --text-normal: #ffffff;
+    --text-muted: #dcdde1;
+    --header-primary: #ffffff;
+    --channels-default: #b2bec3;
+    --background-modifier-selected: rgba(122, 28, 46, 0.4);
+    --background-modifier-hover: rgba(255, 255, 255, 0.08);
+}
