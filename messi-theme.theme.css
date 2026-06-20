@@ -2,10 +2,86 @@
  * @name Messi Halloween Theme
  * @author Custom Developer
  * @version 1.0.0
- * @description A fully optimized transparent Discord theme featuring Lionel Messi and a custom Halloween logo.
+ * @description Same to same transparent theme setup based on BasicBackground layout.
  * @source https://github.com/sheikhtaif/messi-halloween-theme
 */
 
-@import url("https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/background.css");
-@import url("https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/colors.css");
-@import url("https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/logo.css");
+/* --- 1. BACKGROUND SYSTEM --- */
+:root {
+    --theme-background-image: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Wallpaper.jpg');
+}
+
+html, body, #app-mount, 
+.appMount_eed9a3, .app_eed9a3, 
+.bg_d4b6c5, .container_e40c16,
+.wrapper_ffee72 {
+    background: var(--theme-background-image) center/cover no-repeat fixed !important;
+}
+
+/* --- 2. TRANSPARENCY & CLOUD LAYERS --- */
+.layer_cd0de5, 
+.container_a4d4d9, 
+.chat_a7d72e, 
+.sidebar_a4d4d9, 
+.wrapper_a7e7a1, 
+.panels_a4d4d9, 
+.container_ee69e0, 
+.chatContent_a7d72e, 
+.members_cbd271, 
+.container_cbd271, 
+.privateChannels_f0963d, 
+.scroller_c47fa9, 
+.scroller_bf550a, 
+.pageWrapper_a3a4ce,
+.scroller_eedf95,
+.scroller_e2e187,
+.peopleColumn_c2739c,
+.content_a4d4d9,
+.base_a4d4d9 {
+    background: rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: none !important;
+}
+
+.standardSidebarView_c25c6d,
+.sidebarRegionScroller_c25c6d,
+.contentRegion_c25c6d,
+.contentRegionScroller_c25c6d {
+    background: transparent !important;
+}
+
+.scrollableContainer_d0696b, .channelTextArea_a7d72e {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* --- 3. COLORS & FONTS --- */
+:root {
+    --brand-experiment: #7a1c2e; 
+    --brand-experiment-560: #541320;
+    --text-normal: #dcddde !important;
+    --text-muted: #72767d !important;
+    --header-primary: #ffffff !important;
+    --channels-default: #8e9297 !important;
+    --background-modifier-selected: rgba(122, 28, 46, 0.3) !important;
+    --background-modifier-hover: rgba(255, 255, 255, 0.05) !important;
+}
+
+.name_c19a55, .username_c19a55, .channelName_a7d72e {
+    font-weight: 500 !important;
+}
+
+/* --- 4. CUSTOM HOME LOGO --- */
+[class^="childWrapper_"] svg {
+    display: none !important;
+}
+
+[class^="childWrapper_"] {
+    background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 50% !important;
+}
+
+[class^="wrapper_"]:hover [class^="childWrapper_"] {
+    background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
+    border-radius: 15px !important;
+}
