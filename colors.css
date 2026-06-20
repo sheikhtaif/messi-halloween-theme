@@ -1,17 +1,12 @@
 :root {
     --brand-experiment: #7a1c2e; 
     --brand-experiment-560: #541320;
-    --text-normal: #ffffff;
-    --text-muted: #e3e5e8;
-    --header-primary: #ffffff;
-    --channels-default: #b5bac1;
+    --text-normal: #ffffff !important; /* Pure white text for messages */
+    --text-muted: #f2f3f5 !important;  /* Bright silver for lighter text */
+    --header-primary: #ffffff !important;
+    --channels-default: #dbdee1 !important;
     --background-modifier-selected: rgba(122, 28, 46, 0.5) !important;
-    --background-modifier-hover: rgba(255, 255, 255, 0.1) !important;
-    --window-margin: 8px;
-    --window-border-radius: 12px;
-}
-
-/* Text readability improvement */
-.messageContent_c243d6 {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    --background-modifier-hover: rgba(255, 255, 255, 0.08) !important;
+    --window-margin: 6px;
+    --window-border-radius: 10px;
 }
