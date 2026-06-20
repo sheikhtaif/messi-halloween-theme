@@ -1,13 +1,15 @@
-[class^="homeIcon"] {
-    content: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') !important;
-    width: 32px !important;
-    height: 32px !important;
+[class^="childWrapper_"] svg {
+    display: none !important;
 }
 
-.childWrapper_f90abc {
-    background-color: transparent !important;
+[class^="childWrapper_"] {
+    background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 16px !important;
 }
 
-.wrapper_c5f96e:hover .childWrapper_f90abc {
-    background-color: rgba(122, 28, 46, 0.6) !important;
+[class^="wrapper_"]:hover [class^="childWrapper_"] {
+    background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
+    border-radius: 12px !important;
 }
