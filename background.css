@@ -2,12 +2,15 @@
     --theme-background-image: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Wallpaper.jpg');
 }
 
-.theme-dark, .theme-light, 
+/* Force Main Transparency */
+html, body, #app-mount, 
 .appMount_eed9a3, .app_eed9a3, 
-.bg_d4b6c5, .container_e40c16 {
+.bg_d4b6c5, .container_e40c16,
+.wrapper_ffee72, .loading_ffee72 {
     background: var(--theme-background-image) center/cover no-repeat fixed !important;
 }
 
+/* All Panels Light Transparency Fix */
 .layer_cd0de5, 
 .container_a4d4d9, 
 .chat_a7d72e, 
@@ -24,18 +27,17 @@
 .pageWrapper_a3a4ce,
 .scroller_eedf95,
 .scroller_e2e187,
-.peopleColumn_c2739c {
+.peopleColumn_c2739c,
+.content_a4d4d9,
+.base_a4d4d9,
+.sidebarRegionScroller_c25c6d,
+.contentRegion_c25c6d,
+.contentRegionScroller_c25c6d {
     background: rgba(255, 255, 255, 0.45) !important;
     backdrop-filter: blur(4px) !important;
 }
 
-.standardSidebarView_c25c6d,
-.sidebarRegionScroller_c25c6d,
-.contentRegion_c25c6d,
-.contentRegionScroller_c25c6d {
-    background: transparent !important;
-}
-
-.scrollableContainer_d0696b {
+/* Chat Input Bar Adjustment */
+.scrollableContainer_d0696b, .channelTextArea_a7d72e {
     background: rgba(0, 0, 0, 0.06) !important;
 }
