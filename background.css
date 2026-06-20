@@ -2,33 +2,44 @@
     --theme-background-image: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Wallpaper.jpg');
 }
 
-/* Base Transparency Setup */
+/* পুরো অ্যাপের কালো লেয়ার ভ্যানিশ করে লাইট ব্যাকগ্রাউন্ড সেট করার মেইন কোড */
 .theme-dark, .theme-light, 
 .appMount_eed9a3, .app_eed9a3, 
 .bg_d4b6c5, .container_e40c16 {
     background: var(--theme-background-image) center/cover no-repeat fixed !important;
 }
 
-/* Chat and Member List Visibility Fix */
-.chatContent_a7d72e, .members_cbd271, .container_cbd271 {
-    background: rgba(0, 0, 0, 0.45) !important; /* Slightly darker background for text readability */
-    backdrop-filter: blur(8px) !important; /* Blurs the background under messages */
-}
-
-/* Sidebar and Channel List Setup */
-.sidebar_a4d4d9, .privateChannels_f0963d {
-    background: rgba(0, 0, 0, 0.3) !important;
+/* চ্যাট ও কন্টাক্ট প্যানেলকে ২য় ছবির মতো লাইট ট্রান্সপারেন্ট করা */
+.layer_cd0de5, 
+.container_a4d4d9, 
+.chat_a7d72e, 
+.sidebar_a4d4d9, 
+.wrapper_a7e7a1, 
+.panels_a4d4d9, 
+.container_ee69e0, 
+.chatContent_a7d72e, 
+.members_cbd271, 
+.container_cbd271, 
+.privateChannels_f0963d, 
+.scroller_c47fa9, 
+.scroller_bf550a, 
+.pageWrapper_a3a4ce,
+.scroller_eedf95,
+.scroller_e2e187,
+.peopleColumn_c2739c {
+    background: rgba(255, 255, 255, 0.45) !important; /* কালো ছায়ার বদলে ২য় ছবির মতো লাইট হোয়াইট ট্রান্সপারেন্সি */
     backdrop-filter: blur(4px) !important;
 }
 
-/* Message Text Sharpness and Shadows */
-.messageContent_c243d6, .username_c19a55 {
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9), 0px 1px 5px rgba(0, 0, 0, 0.9) !important;
-    font-weight: 500 !important;
+/* সেটিং পেজ সম্পূর্ণ ট্রান্সপারেন্ট রাখা */
+.standardSidebarView_c25c6d,
+.sidebarRegionScroller_c25c6d,
+.contentRegion_c25c6d,
+.contentRegionScroller_c25c6d {
+    background: transparent !important;
 }
 
-/* Chat Input Box Styling */
+/* চ্যাট ইনপুট বক্স এডজাস্টমেন্ট */
 .scrollableContainer_d0696b {
-    background: rgba(0, 0, 0, 0.6) !important;
-    border: 1px solid rgba(122, 28, 46, 0.4);
+    background: rgba(0, 0, 0, 0.06) !important;
 }
