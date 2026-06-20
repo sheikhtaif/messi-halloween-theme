@@ -1,0 +1,10 @@
+:root {
+    --theme-background-image: url('https://raw.githubusercontent.com/nirobsheikhnxt/messi-halloween-theme/main/Wallpaper.jpg');
+}
+.theme-dark, .theme-light, .appMount_eed9a3, .app_eed9a3, .bg_d4b6c5 {
+    background: var(--theme-background-image) center/cover no-repeat fixed !important;
+}
+.container_a4d4d9, .chat_a7d72e, .sidebar_a4d4d9, .wrapper_a7e7a1, .panels_a4d4d9 {
+    background: rgba(0, 0, 0, 0.45) !important;
+    backdrop-filter: blur(4px);
+}
