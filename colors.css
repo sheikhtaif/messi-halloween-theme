@@ -1,12 +1,20 @@
 :root {
     --brand-experiment: #7a1c2e; 
     --brand-experiment-560: #541320;
-    --text-normal: #ffffff !important; /* Pure white text for messages */
-    --text-muted: #f2f3f5 !important;  /* Bright silver for lighter text */
-    --header-primary: #ffffff !important;
-    --channels-default: #dbdee1 !important;
-    --background-modifier-selected: rgba(122, 28, 46, 0.5) !important;
-    --background-modifier-hover: rgba(255, 255, 255, 0.08) !important;
-    --window-margin: 6px;
-    --window-border-radius: 10px;
+    --text-normal: #111214 !important; /* চ্যাটের সব মেসেজ কালো রঙ করার জন্য */
+    --text-muted: #2e3035 !important;  /* সেকেন্ডারি লেখাগুলো গাঢ় ধূসর/কালো করার জন্য */
+    --header-primary: #060607 !important; /* মেইন হেডার এবং কন্টাক্ট নেম কালো করার জন্য */
+    --channels-default: #313338 !important; /* চ্যানেল লিস্টের নামগুলো স্পষ্ট কালো করার জন্য */
+    --background-modifier-selected: rgba(122, 28, 46, 0.2) !important;
+    --background-modifier-hover: rgba(0, 0, 0, 0.06) !important;
+    --window-margin: 8px;
+    --window-border-radius: 12px;
+}
+
+/* কন্টাক্ট লিস্ট, ইউজারনেম এবং ডিরেক্ট মেসেজের নামগুলো জোরপূর্বক কালো (Dark) করা */
+.name_c19a55, .username_c19a55, .activityText_c19a55, 
+.text_a2ce8a, .discriminator_c19a55, .channelName_a7d72e,
+.clickable_a4d4d9 .name_a4d4d9, .content_a4d4d9 {
+    color: #111214 !important;
+    font-weight: 600 !important;
 }
