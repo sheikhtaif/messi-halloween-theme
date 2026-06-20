@@ -2,14 +2,12 @@
     --theme-background-image: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Wallpaper.jpg');
 }
 
-/* পুরো অ্যাপের কালো লেয়ার ভ্যানিশ করে লাইট ব্যাকগ্রাউন্ড সেট করার মেইন কোড */
 .theme-dark, .theme-light, 
 .appMount_eed9a3, .app_eed9a3, 
 .bg_d4b6c5, .container_e40c16 {
     background: var(--theme-background-image) center/cover no-repeat fixed !important;
 }
 
-/* চ্যাট ও কন্টাক্ট প্যানেলকে ২য় ছবির মতো লাইট ট্রান্সপারেন্ট করা */
 .layer_cd0de5, 
 .container_a4d4d9, 
 .chat_a7d72e, 
@@ -27,11 +25,10 @@
 .scroller_eedf95,
 .scroller_e2e187,
 .peopleColumn_c2739c {
-    background: rgba(255, 255, 255, 0.45) !important; /* কালো ছায়ার বদলে ২য় ছবির মতো লাইট হোয়াইট ট্রান্সপারেন্সি */
+    background: rgba(255, 255, 255, 0.45) !important;
     backdrop-filter: blur(4px) !important;
 }
 
-/* সেটিং পেজ সম্পূর্ণ ট্রান্সপারেন্ট রাখা */
 .standardSidebarView_c25c6d,
 .sidebarRegionScroller_c25c6d,
 .contentRegion_c25c6d,
@@ -39,7 +36,6 @@
     background: transparent !important;
 }
 
-/* চ্যাট ইনপুট বক্স এডজাস্টমেন্ট */
 .scrollableContainer_d0696b {
     background: rgba(0, 0, 0, 0.06) !important;
 }
