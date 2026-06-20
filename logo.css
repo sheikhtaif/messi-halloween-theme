@@ -6,10 +6,10 @@
     background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
     width: 48px !important;
     height: 48px !important;
-    border-radius: 16px !important;
+    border-radius: 50% !important;
 }
 
 [class^="wrapper_"]:hover [class^="childWrapper_"] {
     background: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Discord%20Halloween%20app%20icon.jpg') center/cover no-repeat !important;
-    border-radius: 12px !important;
+    border-radius: 15px !important;
 }
