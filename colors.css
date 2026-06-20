@@ -2,9 +2,16 @@
     --brand-experiment: #7a1c2e; 
     --brand-experiment-560: #541320;
     --text-normal: #ffffff;
-    --text-muted: #dcdde1;
+    --text-muted: #e3e5e8;
     --header-primary: #ffffff;
-    --channels-default: #b2bec3;
-    --background-modifier-selected: rgba(122, 28, 46, 0.4);
-    --background-modifier-hover: rgba(255, 255, 255, 0.08);
+    --channels-default: #b5bac1;
+    --background-modifier-selected: rgba(122, 28, 46, 0.5) !important;
+    --background-modifier-hover: rgba(255, 255, 255, 0.1) !important;
+    --window-margin: 8px;
+    --window-border-radius: 12px;
+}
+
+/* Text readability improvement */
+.messageContent_c243d6 {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 }
