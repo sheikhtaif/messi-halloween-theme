@@ -1,10 +1,21 @@
 :root {
-    --theme-background-image: url('https://raw.githubusercontent.com/nirobsheikhnxt/messi-halloween-theme/main/Wallpaper.jpg');
+    --theme-background-image: url('https://raw.githubusercontent.com/sheikhtaif/messi-halloween-theme/main/Wallpaper.jpg');
 }
-.theme-dark, .theme-light, .appMount_eed9a3, .app_eed9a3, .bg_d4b6c5 {
+
+/* Main App Transparency */
+.theme-dark, .theme-light, .appMount_eed9a3, .app_eed9a3, .bg_d4b6c5, .container_e40c16 {
     background: var(--theme-background-image) center/cover no-repeat fixed !important;
 }
-.container_a4d4d9, .chat_a7d72e, .sidebar_a4d4d9, .wrapper_a7e7a1, .panels_a4d4d9 {
+
+/* Layer & Panel Transparency */
+.layer_cd0de5, .container_a4d4d9, .chat_a7d72e, .sidebar_a4d4d9, .wrapper_a7e7a1, .panels_a4d4d9, 
+.container_ee69e0, .chatContent_a7d72e, .members_cbd271, .container_cbd271, .privateChannels_f0963d, 
+.scroller_c47fa9, .scroller_bf550a, .pageWrapper_a3a4ce {
     background: rgba(0, 0, 0, 0.45) !important;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px) !important;
+}
+
+/* Chat Input Box Box Adjustment */
+.channelTextArea_a7d72e, .scrollableContainer_d0696b {
+    background: rgba(255, 255, 255, 0.07) !important;
 }
